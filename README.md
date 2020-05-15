@@ -35,4 +35,8 @@ $test-primary-very-high: dl-test($primary, $secondary, 50, 50) !default;
 
 This theme generates a "color palette" similar to the one in the styleguide on theme creator above the Header of the site.
 
+The label => `0 color-name` refers to the color generated with the original color function.
+
+The label => `1 color-name` refers to the color generated with the new function.
+
 ![](repo-assets/preview.png)
