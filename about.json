@@ -1,0 +1,81 @@
+{
+  "name": "color-tester",
+  "about_url": null,
+  "license_url": null,
+  "assets": {
+  },
+  "color_schemes": {
+    "Default": {
+      "primary": "222222",
+      "secondary": "ffffff",
+      "tertiary": "0088cc",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    },
+    "Weird": {
+      "primary": "FFFF4D",
+      "secondary": "007191",
+      "tertiary": "8900c4",
+      "quaternary": "11ad6c",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "ffa21e",
+      "success": "782f88",
+      "love": "680101"
+    },
+    "Material Dark": {
+      "primary": "fafafa",
+      "secondary": "212121",
+      "tertiary": "00bcd4",
+      "quaternary": "00bcd4",
+      "header_background": "000000",
+      "header_primary": "ffffff",
+      "highlight": "fafafa",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    },
+    "Solar Light": {
+      "primary": "002B36",
+      "secondary": "FCF6E1",
+      "tertiary": "0088cc",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    },
+    "Solar Dark": {
+      "primary": "FCF6E1",
+      "secondary": "002B36",
+      "tertiary": "0088cc",
+      "quaternary": "e45735",
+      "header_background": "ffffff",
+      "header_primary": "333333",
+      "highlight": "ffff4d",
+      "danger": "e45735",
+      "success": "009900",
+      "love": "fa6c8d"
+    },
+    "Dracula": {
+      "primary": "f2f2f2",
+      "secondary": "282a36",
+      "tertiary": "bd93f9",
+      "quaternary": "8be9fd",
+      "header_background": "ffffff",
+      "header_primary": "14151f",
+      "highlight": "f1fa8c",
+      "danger": "ff5555",
+      "success": "50fa7b",
+      "love": "ff79c6"
+    }
+  }
+}

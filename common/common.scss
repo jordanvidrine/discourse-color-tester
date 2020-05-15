@@ -1,0 +1,194 @@
+.custom-colors {
+  width: 100%;
+
+  .colors-container {
+    margin: 025px auto 0 auto;
+    max-width: 1200px;
+    display: grid;
+    grid-gap: 5px;
+
+    .comparison-container {
+      display: flex;
+      flex-direction: row;
+      // .color-swatch:nth-child(2) {
+      //   p {
+      //     border-left: 1px solid rgba(255, 255, 255, 0.5);
+      //   }
+      // }
+    }
+  }
+
+  .color-swatch {
+    width: 50%;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+
+    &.solo {
+      width: 100%;
+    }
+
+    p {
+      margin: 0;
+      padding: 5px 15px 5px 15px;
+      background-color: rgba($primary,.3);
+      width: 100%;
+      color: $secondary;
+    }
+
+    &.primary-very-low {
+      background-color: $primary-very-low;
+    }
+    &.primary-low {
+      background-color: $primary-low;
+    }
+    &.primary-medium {
+      background-color: $primary-medium;
+    }
+    &.primary-low-mid {
+      background-color: $primary-low-mid;
+    }
+    &.primary-high {
+      background-color: $primary-high;
+    }
+    &.test-primary-very-low {
+      background-color: $test-primary-very-low;
+    }
+    &.test-primary-low {
+      background-color: $test-primary-low;
+    }
+    &.test-primary-medium {
+      background-color: $test-primary-medium;
+    }
+    &.test-primary-low-mid {
+      background-color: $test-primary-low-mid;
+    }
+    &.test-primary-high {
+      background-color: $test-primary-high;
+    }
+    &.primary {
+      background-color: $primary;
+    }
+    &.secondary {
+      background-color: $secondary;
+    }
+    &.secondary-low {
+      background-color: $secondary-low;
+    }
+    &.secondary-medium {
+      background-color: $secondary-medium;
+    }
+    &.secondary-high {
+      background-color: $secondary-high;
+    }
+    &.secondary-very-high {
+      background-color: $secondary-very-high;
+    }
+    &.test-secondary-low {
+      background-color: $test-secondary-low;
+    }
+    &.test-secondary-medium {
+      background-color: $test-secondary-medium;
+    }
+    &.test-secondary-high {
+      background-color: $test-secondary-high;
+    }
+    &.test-secondary-very-high {
+      background-color: $test-secondary-very-high;
+    }
+    &.tertiary {
+      background-color: $tertiary;
+    }
+    &.tertiary-low {
+      background-color: $tertiary-low;
+    }
+    &.tertiary-medium {
+      background-color: $tertiary-medium;
+    }
+    &.tertiary-high {
+      background-color: $tertiary-high;
+    }
+    &.test-tertiary {
+      background-color: $tertiary;
+    }
+    &.test-tertiary-low {
+      background-color: $test-tertiary-low;
+    }
+    &.test-tertiary-medium {
+      background-color: $test-tertiary-medium;
+    }
+    &.test-tertiary-high {
+      background-color: $test-tertiary-high;
+    }
+    &.quaternary {
+      background-color: $quaternary;
+    }
+    &.quaternary-low {
+      background-color: $quaternary-low;
+    }
+    &.test-quaternary-low {
+      background-color: $test-quaternary-low;
+    }
+    &.highlight {
+      background-color: $highlight;
+    }
+    &.highlight-low {
+      background-color: $highlight-low;
+    }
+    &.highlight-medium {
+      background-color: $highlight-medium;
+    }
+    &.highlight-high {
+      background-color: $highlight-high;
+    }
+    &.test-highlight-low {
+      background-color: $test-highlight-low;
+    }
+    &.test-highlight-medium {
+      background-color: $test-highlight-medium;
+    }
+    &.test-highlight-high {
+      background-color: $test-highlight-high;
+    }
+    &.danger {
+      background-color: $danger;
+    }
+    &.danger-low {
+      background-color: $danger-low;
+    }
+    &.danger-medium {
+      background-color: $danger-medium;
+    }
+    &.test-danger-low {
+      background-color: $test-danger-low;
+    }
+    &.test-danger-medium {
+      background-color: $test-danger-medium;
+    }
+    &.success {
+      background-color: $success;
+    }
+    &.success-low {
+      background-color: $success-low;
+    }
+    &.success-medium {
+      background-color: $success-medium;
+    }
+    &.test-success-low {
+      background-color: $test-success-low;
+    }
+    &.test-success-medium {
+      background-color: $test-success-medium;
+    }
+    &.love {
+      background-color: $love;
+    }
+    &.love-low {
+      background-color: $love-low;
+    }
+    &.test-love-low {
+      background-color: $test-love-low;
+    }
+  }
+}
